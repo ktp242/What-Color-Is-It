@@ -1,0 +1,28 @@
+# Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
+
+# OSX files
+.DS_Store
+Thumbs.db
+
+# Sass + Node Modules
+.sass-cache
+node_modules/
+bower_components
+
+.bundle
+bin/
+
+# Ignore generated files from Grunt
+source/js/libs
+
+# vim temp files
+*.swp
+*.swo
+
+# Bower
+bower_components
+
+.tmp
+dist/
+source/js/lodash.js
+source/js/jquery.js
