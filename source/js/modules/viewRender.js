@@ -12,7 +12,7 @@ ViewRender.prototype.changeBG = function(){
 
 ViewRender.prototype.printTime = function(){
 	$('.time-zone').empty();
-	$('.time-zone').append("<p>Now is "+this.h+" : "+this.m+" : "+this.s+"</p>");
+	$('.time-zone').append("<p>Now is #"+this.h+this.m+this.s+"</p>");
 };
 
 

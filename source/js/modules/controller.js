@@ -3,6 +3,7 @@
 define(["modules/getTimeApi", "modules/viewRender"], 
 	function(getTimeApi, viewRender){
 		var getTime = new GetTimeApi();
+		var vRender;
 		var hour;
 		var min;
 		var sec;
@@ -45,5 +46,4 @@ define(["modules/getTimeApi", "modules/viewRender"],
 		window.setInterval(
 	 		renderView, 1000
 	 	);
-	
 });

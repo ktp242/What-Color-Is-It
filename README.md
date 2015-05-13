@@ -1,9 +1,9 @@
-[What Color IS IT?]
+What Color IS IT?
 ===================
 
-[This is an application I tried to reproduce from a very similiar application I have seen online. The concept is not original, however, I tried to re-write it to make my own version of the mechanism. It is based on the boilerplate from CPB Interactive Technical Department with grea appreciation.
+This is an application I tried to reproduce from a very similiar application I have seen online. The concept is not original, however, I tried to re-write it to make my own version of the mechanism. It is based on the boilerplate from CPB Interactive Technical Department with grea appreciation.
 
-Kang Peng 20150507]
+Kang Peng 20150507
 
 ## Requirements
 * [ruby](https://www.ruby-lang.org/en/)
