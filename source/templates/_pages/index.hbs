@@ -1,22 +1,49 @@
 <header role="banner">
-  <h1 class="page-title">WHAT COLOR IS IT?</h1>
+  <h1 class="page-title">{{title}}</h1>
   <nav role="navigation">
     <h1 class="visuallyhidden">Main Navigation</h1>
   </nav>
 </header>
 
-
 <main class="main" role="main">
   <h1 class="visuallyhidden">Main Content</h1>
   <div class="time-zone text-center"></div>
-</main>
+  <div class="color-form">
+    <form class="row hour">
+      <P>Set hour to color: </p>
+      <input type="radio" name="color" value="red" checked>Red
+      <br>
+      <input type="radio" name="color" value="green">Green
+      <br>
+      <input type="radio" name="color" value="blue">Blue
+    </form>
 
+    <form class="row min">
+      <P>Set minute to color: </p>
+      <input type="radio" name="color" value="red" checked>Red
+      <br>
+      <input type="radio" name="color" value="green">Green
+      <br>
+      <input type="radio" name="color" value="blue">Blue
+    </form>
+
+    <form class="row sec">
+      <P>Set second to color: </p>
+      <input type="radio" name="color" value="red">Red
+      <br>
+      <input type="radio" name="color" value="green">Green
+      <br>
+      <input type="radio" name="color" value="blue" checked>Blue
+    </form>
+  </div>
+</main>
 
 <footer role="contentinfo">
   <p class="text-center">&copy; 2015 Kang Peng</p>
 </footer>
 
 <script data-main="js/main" src="js/libs/requirejs/require.js"></script>
+
 <script>
   // define settings for require
   define('settings', {
